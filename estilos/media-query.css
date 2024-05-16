@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
+:root {
+    --cor01: #ADD6B3;
+    --cor02: #68A683;
+    --cor03: #2B4538;
+    --cor04: #45718C;
+    --cor05: #3E608C;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #68A683, #3E608C);
     }
     section#login {
         width: 80vw;
@@ -23,7 +31,7 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #68A683, #3E608C);
     }
     section#login {
         width: 990px;
